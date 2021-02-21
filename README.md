@@ -1,5 +1,5 @@
 
-[![Build & Test](https://github.com/bcoconni/JSBSim.jl/actions/workflows/build_test.yml/badge.svg)](https://github.com/bcoconni/JSBSim.jl/actions/workflows/build_test.yml)
+[![Build & Test](https://github.com/JSBSim-Team/JSBSim.jl/actions/workflows/build_test.yml/badge.svg)](https://github.com/bcoconni/JSBSim.jl/actions/workflows/build_test.yml)
 
 This package aims to provide a Julia interface to the [JSBSim library](https://github.com/JSBSim-Team/jsbsim).
 
