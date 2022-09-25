@@ -1,7 +1,7 @@
 name = "JSBSim"
 uuid = "1735446d-a1d9-49ef-8d9f-4aa6b1e90fb9"
 authors = ["Bertrand Coconnier <bcoconni@users.sourceforge.net>"]
-version = "0.1.0"
+version = "0.2.0"
 
 [deps]
 CxxWrap = "1f15a43c-97ca-5a2a-ae31-89f07a497df4"
@@ -10,8 +10,9 @@ Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
 [compat]
 CxxWrap = "0.11"
-JSBSim_jll = "1.1.5"
-julia = "1.5"
+JSBSim_jll = "1.1.12"
+julia = "1.6"
 
 [extras]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
