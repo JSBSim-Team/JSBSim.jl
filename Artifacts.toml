@@ -1,0 +1,6 @@
+[JSBSim]
+git-tree-sha1 = "9c278dd3ec948e1b43e6b0ffe4cb62ae69afb4b4"
+
+  [[JSBSim.download]]
+  url = "https://github.com/JSBSim-Team/jsbsim/archive/refs/tags/v1.1.12.tar.gz"
+  sha256 = "db6544d633bfe98a784034a65e59a012a4ab8d9cf69f3823c4f29ec70ca0896c"

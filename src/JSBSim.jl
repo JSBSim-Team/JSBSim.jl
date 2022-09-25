@@ -13,6 +13,12 @@ module JSBSim
     end
     return s
   end
+
+  using Pkg.Artifacts
+  function GetDefaultRootDir()
+    return joinpath(artifact"JSBSim", "jsbsim-1.1.12")
+  end
+
   function SetRootDir(fdm::FGFDMExec, path::String)
     SetRootDir(fdm, SGPath(path))
     SetAircraftPath(fdm, "aircraft")

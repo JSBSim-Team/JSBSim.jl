@@ -1,6 +1,7 @@
 using Test
 using JSBSim
 
+@test isdir(JSBSim.GetDefaultRootDir()) == true
 path = JSBSim.SGPath("Hello world!")
 @test JSBSim.str(path) == "Hello world!"
 
