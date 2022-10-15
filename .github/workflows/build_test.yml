@@ -35,12 +35,6 @@ jobs:
           arch: ${{ matrix.arch }}
       - name: Checkout JSBSim.jl
         uses: actions/checkout@v3
-      - name: Checkout JSBSim
-        uses: actions/checkout@v3
-        with:
-          repository: JSBSim-Team/jsbsim
-          ref: 'v1.1.12'
-          path: JSBSim
       - name: Build package
         uses: julia-actions/julia-buildpkg@latest
       - name: Test package
