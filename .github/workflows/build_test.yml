@@ -34,7 +34,7 @@ jobs:
           version: ${{ matrix.version }}
           arch: ${{ matrix.arch }}
       - name: Checkout JSBSim.jl
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Build package
         uses: julia-actions/julia-buildpkg@latest
       - name: Test package
